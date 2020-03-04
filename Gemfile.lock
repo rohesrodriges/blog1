@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/jeremyolliver/annotate_models.git
+  revision: 4d57e4fe6360125f17886168120a48091a268e45
+  branch: rake_compatibility
+  specs:
+    annotate (2.4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -194,12 +201,13 @@ GEM
     websocket-extensions (0.1.4)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.2.2)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate!
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)

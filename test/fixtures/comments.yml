@@ -7,3 +7,15 @@ one:
 two:
   post: two
   body: MyText
+
+# == Schema Information
+#
+# Table name: comments
+#
+#  id         :integer         not null, primary key
+#  post_id    :integer         not null
+#  body       :text
+#  created_at :datetime        not null
+#  updated_at :datetime        not null
+#
+
