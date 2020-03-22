@@ -1,6 +1,6 @@
 class Comment < ApplicationRecord
   belongs_to :post
-  belongs_to :user
+  #belongs_to :user
   validates_presence_of :post_id
   validates_presence_of :body
 end
@@ -27,4 +27,3 @@ end
 #  updated_at :datetime        not null
 #  user_id    :integer
 #
-
